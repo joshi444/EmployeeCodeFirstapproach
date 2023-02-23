@@ -1,0 +1,9 @@
+﻿@model EmployeeEFCoreCodeFirstApp.Models.Employee
+<form asp-action="Delete" method="post">
+    <input asp-for="EmployeeId" readonly="true" />
+    <input asp-for="Name" readonly="true" />
+    <input asp-for="DepartmentName" readonly="true" />
+    <input asp-for="Address" readonly="true" />
+    <input asp-for="Contact" readonly="true" />
+    <input type="submit"  value="Delete"  class="btn btn-danger"/>
+</form>

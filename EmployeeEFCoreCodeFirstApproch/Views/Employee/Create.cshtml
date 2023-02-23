@@ -1,0 +1,29 @@
+﻿@model EmployeeEFCoreCodeFirstApp.Models.Employee
+<h2>Create</h2>
+<form asp-action="Create" method="Post">
+     <div class="form-group">
+        <label asp-for="Name" class="form-control col-sm-2">Enter Name</label>
+        <input asp-for="Name" class="form-control col-sm-10"/>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Name" class="form-control col-sm-2">Enter Department</label>
+        <input asp-for="Name" class="form-control col-sm-10"/>
+    </div>
+
+   
+
+     <div class="form-group">
+        <label asp-for="Address" class="form-control col-sm-2">Enter Address</label>
+        <input asp-for="Address" class="form-control col-sm-10"/>
+    </div>
+
+     <div class="form-group">
+        <label asp-for="Contact" class="form-control col-sm-2">Enter Contact</label>
+        <input asp-for="Contact" class="form-control col-sm-10"/>
+    </div>
+    <div>
+        <input type="submit" class="btn btn-success" value="Create"/>
+    </div>
+
+</form>
